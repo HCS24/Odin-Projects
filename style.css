@@ -14,7 +14,6 @@ body {
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 50px;
-    flex-shrink: 0;
 }
 
 .second-head {
@@ -26,8 +25,28 @@ body {
 .two {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-between;
+    gap: 200px;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 400px;
+}
+
+.Awesome{
+    font-size
+    width: 300px;
+}
+.text {
+    width: 400px;
+}
+button {
+    width: 100px;
+}
+
+.Awesome, .text, .button {
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -36,21 +55,59 @@ body {
     flex-direction: column;
 }
 
-.Awesome, .text, .button {
-    display: flex;
-    flex-wrap: wrap;
-    width: 400px;
+.p {
+    text-align: center;
+    padding: 20px; 
+}
+img { 
+    height: auto;
+    width: 150px; 
+    border-radius: 20px;
 }
 
-.center {
+.pics{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 100px;
     flex-wrap: wrap;
+}
+
+.pic1, .pic2, .pic3, .pic4 {
+    display: flex;
+    text-align: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100px;
+    gap: 10px; 
+    
 }
 
-.pics {
+.quote {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    width: 700px;
+    padding: 50px;
+}
+.sign {
+    text-align: right;
+}
+
+.call {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 70px; 
+}
+
+.stack { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    padding: 50px;
 }
