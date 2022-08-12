@@ -7,7 +7,7 @@ body {
 }
 .container {
     background-color: #1f2937;
-    color: #f9faf8;
+    color: #f9faf8; 
 }
 
 .header {
@@ -19,14 +19,16 @@ body {
     padding-right: 200px;
     padding-bottom: 50px;
 }
-    
+
 .name {
     font-weight: bold;
 }
+
 .Awesome {
     font-size: 48px;
     font-weight: bold;
 }
+
 .second-head {
     display: flex;
     flex-direction: row;
@@ -36,12 +38,13 @@ body {
 .two {
     display: flex;
     align-items: center;
-    gap: 380px;
+    gap: 130px;
     flex-wrap: wrap;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 300px;
     padding-bottom: 30px;
-
+    justify-content: space-between;
+    width: 800px;
 }
 
 .img {
@@ -93,6 +96,7 @@ img {
     gap: 100px;
     flex-wrap: wrap;
     padding: 50px;
+    padding-top: 10px;
 }
 
 .pic1, .pic2, .pic3, .pic4 {
@@ -118,18 +122,17 @@ img {
     font-style: italic;
     font-weight: 100;
     width:1180px;
-    justify-content: center;
-    align-items: center;
 }
 
 .thor {
     width: 700px;
-    
+    padding-left: 200px;
 }
 .sign {
-    text-align: right;
     font-size: 24px;
     font-weight: bold;
+    text-align: right;
+    padding-right: 300px;
 }
 
 
@@ -149,7 +152,6 @@ img {
 .action{ 
     font-size: 18px;
     font-weight: bold;
-    width
 }
 
 .stack { 
